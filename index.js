@@ -70,6 +70,7 @@ const questions = [
   },
 ];
 
+
 // Run Inquirer to prompt the user
 inquirer.prompt(questions).then((answers) => {
   // Generate README using the provided answers
