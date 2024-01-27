@@ -17,16 +17,15 @@ While building this README generator, I learned how to use Node.js and the Inqui
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [How To Contribute](#how-to-contribute)
-- [Tests](#tests)
 - [Questions](#questions)
+- [How To Contribute](#how-to-contribute)
 
 ## Installation
 To install and run this project locally, follow these steps:
 
 1. Clone the repository to your local machine.
     
-    git clone git@github.com:jodielee062788/ReadMe_Gen.git
+    ```git clone git@github.com:jodielee062788/ReadMe_Gen.git```
 
 2. Open the project folder in your code editor.
 3. Explore the code and open index.html in your web browser.
@@ -36,15 +35,21 @@ To use this repository, follow these steps:
 
 1. Install the dependencies by running:
 
-    npm install
+    ```npm i```
+  
+    ![Screenshot of executing npm i command](./assets/img/1.png)
 
 2. Once the dependencies are installed, you can run the README generator by executing:
 
-    node index.js
+    ```node index.js```
+
+    ![Screenshot of executing node index.js command](./assets/img/2.png)
 
 3. Follow the prompts to input information about your project.
 
-4. Here's a walkthrough video on how to run the application [Walkthrough Video](./Video/ReadMe%20Generator%20Walkthrough%20Video.mp4).
+    ![Screenshot of prompts](./assets/img/3.png)
+
+4. Here's a walkthrough video on how to run the application [Walkthrough Video](https://drive.google.com/file/d/1MKgTt0opEU1jlNALSlKZF5HioneTUon7/view?usp=sharing).
 
 ## License
 This project is licensed under the MIT license. See the [LICENSE](./LICENSE) file for details.
