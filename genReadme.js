@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 function generateReadme(answers) {
-  // Create the content of the README file using the provided answers
+  // Function to generate License Badge based on selected license
   function generateLicenseBadge(license) {
     if (license === 'MIT') {
       return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
@@ -16,7 +16,10 @@ function generateReadme(answers) {
     }
   }
 
+   // Generate License Badge using the selected license
   const licenseBadge = generateLicenseBadge(answers.license);
+
+  // Create the content of the README file using the provided answers
   const readmeContent = `
 # ${answers.title}
 
@@ -76,4 +79,5 @@ You can also find me on GitHub: [${answers.github}](https://github.com/${answers
   });
 }
 
+// Export the generateReadme function from the genReadme.js
 module.exports = generateReadme;
